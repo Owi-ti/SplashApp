@@ -50,27 +50,27 @@ class SignupActivity : AppCompatActivity() {
 
 
     }
-    fun validateSign(){
-        var name=etFirstName.text.toString()
-        var name2 =etLastName.text.toString()
-        var mail=etmail.text.toString()
-        var pass=etpassword.text.toString()
-        var confirm=etConfirmPassword.text.toString()
+    fun validateSign() {
+        var name = etFirstName.text.toString()
+        var name2 = etLastName.text.toString()
+        var mail = etmail.text.toString()
+        var pass = etpassword.text.toString()
+        var confirm = etConfirmPassword.text.toString()
 
-        if (name.isBlank()){
-            tilFirstName.error="firstname_required"
+        if (name.isBlank()) {
+            tilFirstName.error = "firstname_required"
         }
-        if (name2.isBlank()){
-            tilLastName.error="Last name required"
+        if (name2.isBlank()) {
+            tilLastName.error = "Last name required"
         }
-        if (mail.isBlank()){
-            tilEmail.error="email_required"
+        if (mail.isBlank()) {
+            tilEmail.error = "email_required"
         }
-        if (pass.isBlank()){
-            tilPassword.error="password_required"
+        if (pass.isBlank()) {
+            tilPassword.error = "password_required"
         }
-        if (confirm.isBlank()){
-            tilConfirmPassword.error="confirmpassword_required"
+        if (confirm.isBlank()) {
+            tilConfirmPassword.error = "confirmpassword_required"
         }
     }
 }
