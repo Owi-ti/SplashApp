@@ -17,9 +17,12 @@
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:theme="@style/SplashTheme"
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
